@@ -55,7 +55,7 @@ namespace TestConsole
             s = "🌍💩";
             Console.WriteLine(s);
             Console.WriteLine($@"""{s}"".{nameof(s.Length)} = {s.Length}");
-            Console.WriteLine($@"""{s}"".{nameof(ConsoleText.CalcStringLength)} = {ConsoleText.CalcStringLength(s)}");
+            Console.WriteLine($@"""{s}"".CalcStringLength = {ConsoleText.CalcStringLength(s)}");
 
 
 
